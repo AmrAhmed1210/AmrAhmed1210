@@ -1,0 +1,71 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amr Ahmed, Backend Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f6fb"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 40) scale(300)">
+      <stop offset="0" stop-color="#0969da" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0969da" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 320) scale(280)">
+      <stop offset="0" stop-color="#8250df" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8250df" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="64" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0969da"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#d0d7de"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1000" height="300" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#dots)" opacity="0.7"/>
+    <rect width="1000" height="300" fill="url(#glow1)"/>
+    <rect width="1000" height="300" fill="url(#glow2)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="19.5" stroke="#d0d7de"/>
+
+  <!-- Text -->
+  <text x="64" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="#0969da">BACKEND DEVELOPER</text>
+  <text x="64" y="158" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="url(#name)">Amr Ahmed</text>
+  <text x="64" y="198" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#57606a">I build reliable APIs and AI-powered systems.</text>
+
+  <!-- Chips -->
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#24292f" text-anchor="middle">
+    <rect x="64" y="226" width="118" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="123" y="247">ASP.NET Core</text>
+    <rect x="192" y="226" width="108" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="246" y="247">Spring Boot</text>
+    <rect x="310" y="226" width="78" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="349" y="247">Python</text>
+    <rect x="398" y="226" width="104" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="450" y="247">PostgreSQL</text>
+    <rect x="512" y="226" width="80" height="32" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="552" y="247">AI / RAG</text>
+  </g>
+
+  <!-- Terminal card (dark in both themes for contrast) -->
+  <rect x="650" y="52" width="296" height="196" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="672" cy="76" r="5" fill="#ff5f56"/>
+  <circle cx="690" cy="76" r="5" fill="#ffbd2e"/>
+  <circle cx="708" cy="76" r="5" fill="#27c93f"/>
+  <line x1="650" y1="94" x2="946" y2="94" stroke="#30363d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace" font-size="13">
+    <text x="670" y="122"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> curl /api/v1/health</tspan></text>
+    <text x="670" y="148" fill="#8b949e">{</text>
+    <text x="686" y="168"><tspan fill="#79c0ff">"status"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"ok"</tspan><tspan fill="#8b949e">,</tspan></text>
+    <text x="686" y="188"><tspan fill="#79c0ff">"auth"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"jwt"</tspan><tspan fill="#8b949e">,</tspan></text>
+    <text x="686" y="208"><tspan fill="#79c0ff">"db"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"postgresql"</tspan></text>
+    <text x="670" y="228" fill="#8b949e">}</text>
+  </g>
+  <rect x="684" y="217" width="8" height="14" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
