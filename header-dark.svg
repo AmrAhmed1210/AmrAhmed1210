@@ -1,20 +1,20 @@
-<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amr Ahmed, Backend Developer">
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amr Ahmed, Java and Spring Boot Backend Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#161b22"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 40) scale(300)">
-      <stop offset="0" stop-color="#388bfd" stop-opacity="0.35"/>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 30) scale(320)">
+      <stop offset="0" stop-color="#f89820" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f89820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 330) scale(300)">
+      <stop offset="0" stop-color="#388bfd" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#388bfd" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 320) scale(280)">
-      <stop offset="0" stop-color="#a371f7" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="name" x1="64" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="name" x1="64" y1="0" x2="470" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#a5d6ff"/>
+      <stop offset="1" stop-color="#ffd8a8"/>
     </linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="1.5" cy="1.5" r="1" fill="#30363d"/>
@@ -26,46 +26,46 @@
 
   <g clip-path="url(#clip)">
     <rect width="1000" height="300" fill="url(#bg)"/>
-    <rect width="1000" height="300" fill="url(#dots)" opacity="0.6"/>
+    <rect width="1000" height="300" fill="url(#dots)" opacity="0.5"/>
     <rect width="1000" height="300" fill="url(#glow1)"/>
     <rect width="1000" height="300" fill="url(#glow2)"/>
+    <rect x="0" y="70" width="5" height="96" fill="#f89820"/>
   </g>
   <rect x="0.5" y="0.5" width="999" height="299" rx="19.5" stroke="#30363d"/>
 
   <!-- Text -->
-  <text x="64" y="76" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="#58a6ff">BACKEND DEVELOPER</text>
-  <text x="64" y="158" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="url(#name)">Amr Ahmed</text>
-  <text x="64" y="198" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#8b949e">I build reliable APIs and AI-powered systems.</text>
+  <text x="64" y="84" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="#f89820">BACKEND DEVELOPER</text>
+  <text x="64" y="162" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="url(#name)">Amr Ahmed</text>
+  <text x="64" y="204" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="22" fill="#8b949e">Java &amp; Spring Boot. Clean, reliable APIs.</text>
 
   <!-- Chips -->
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#c9d1d9" text-anchor="middle">
-    <rect x="64" y="226" width="118" height="32" rx="16" fill="#21262d" stroke="#30363d"/>
-    <text x="123" y="247">ASP.NET Core</text>
-    <rect x="192" y="226" width="108" height="32" rx="16" fill="#21262d" stroke="#30363d"/>
-    <text x="246" y="247">Spring Boot</text>
-    <rect x="310" y="226" width="78" height="32" rx="16" fill="#21262d" stroke="#30363d"/>
-    <text x="349" y="247">Python</text>
-    <rect x="398" y="226" width="104" height="32" rx="16" fill="#21262d" stroke="#30363d"/>
-    <text x="450" y="247">PostgreSQL</text>
-    <rect x="512" y="226" width="80" height="32" rx="16" fill="#21262d" stroke="#30363d"/>
-    <text x="552" y="247">AI / RAG</text>
+    <rect x="64" y="236" width="70" height="30" rx="15" fill="#f89820"/>
+    <text x="99" y="256" fill="#0d1117">Java</text>
+    <rect x="144" y="236" width="108" height="30" rx="15" fill="#21262d" stroke="#30363d"/>
+    <text x="198" y="256">Spring Boot</text>
+    <rect x="262" y="236" width="118" height="30" rx="15" fill="#21262d" stroke="#30363d"/>
+    <text x="321" y="256">ASP.NET Core</text>
+    <rect x="390" y="236" width="104" height="30" rx="15" fill="#21262d" stroke="#30363d"/>
+    <text x="442" y="256">PostgreSQL</text>
   </g>
 
-  <!-- Terminal card -->
-  <rect x="650" y="52" width="296" height="196" rx="14" fill="#0d1117" stroke="#30363d"/>
-  <circle cx="672" cy="76" r="5" fill="#ff5f56"/>
-  <circle cx="690" cy="76" r="5" fill="#ffbd2e"/>
-  <circle cx="708" cy="76" r="5" fill="#27c93f"/>
-  <line x1="650" y1="94" x2="946" y2="94" stroke="#30363d"/>
+  <!-- Code card -->
+  <rect x="610" y="50" width="340" height="200" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="632" cy="74" r="5" fill="#ff5f56"/>
+  <circle cx="650" cy="74" r="5" fill="#ffbd2e"/>
+  <circle cx="668" cy="74" r="5" fill="#27c93f"/>
+  <text x="936" y="78" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace" font-size="11" fill="#6e7681">HealthController.java</text>
+  <line x1="610" y1="92" x2="950" y2="92" stroke="#30363d"/>
   <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace" font-size="13">
-    <text x="670" y="122"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> curl /api/v1/health</tspan></text>
-    <text x="670" y="148" fill="#8b949e">{</text>
-    <text x="686" y="168"><tspan fill="#79c0ff">"status"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"ok"</tspan><tspan fill="#8b949e">,</tspan></text>
-    <text x="686" y="188"><tspan fill="#79c0ff">"auth"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"jwt"</tspan><tspan fill="#8b949e">,</tspan></text>
-    <text x="686" y="208"><tspan fill="#79c0ff">"db"</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"postgresql"</tspan></text>
-    <text x="670" y="228" fill="#8b949e">}</text>
+    <text x="630" y="120" fill="#ffa657">@RestController</text>
+    <text x="630" y="142"><tspan fill="#ff7b72">class</tspan><tspan fill="#d2a8ff"> HealthController</tspan><tspan fill="#c9d1d9"> {</tspan></text>
+    <text x="650" y="168" fill="#ffa657">@GetMapping<tspan fill="#c9d1d9">(</tspan><tspan fill="#a5d6ff">"/health"</tspan><tspan fill="#c9d1d9">)</tspan></text>
+    <text x="650" y="190"><tspan fill="#ff7b72">String</tspan><tspan fill="#d2a8ff"> ok</tspan><tspan fill="#c9d1d9">() {</tspan></text>
+    <text x="670" y="212"><tspan fill="#ff7b72">return</tspan><tspan fill="#a5d6ff"> "OK"</tspan><tspan fill="#c9d1d9">;</tspan></text>
+    <text x="650" y="234" fill="#c9d1d9">}</text>
   </g>
-  <rect x="684" y="217" width="8" height="14" fill="#58a6ff">
+  <rect x="662" y="223" width="8" height="14" fill="#f89820" opacity="0">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>

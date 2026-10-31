@@ -1,0 +1,41 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6f8fa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 140) scale(320)">
+      <stop offset="0" stop-color="#f89820" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f89820" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#d0d7de"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1000" height="140" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="140" fill="url(#bg)"/>
+    <rect width="1000" height="140" fill="url(#dots)" opacity="0.6"/>
+    <rect width="1000" height="140" fill="url(#glow)"/>
+    <rect x="0" y="40" width="5" height="60" fill="#f89820"/>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="139" rx="19.5" stroke="#d0d7de"/>
+
+  <text x="64" y="64" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0d1117">Let's build something reliable.</text>
+  <text x="64" y="98" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#57606a">Thanks for visiting, feel free to reach out.</text>
+
+  <!-- Code card (dark in both themes for contrast) -->
+  <rect x="560" y="36" width="390" height="68" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="580" cy="54" r="4" fill="#ff5f56"/>
+  <circle cx="595" cy="54" r="4" fill="#ffbd2e"/>
+  <circle cx="610" cy="54" r="4" fill="#27c93f"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace" font-size="13">
+    <text x="580" y="86"><tspan fill="#c9d1d9">System.out.</tspan><tspan fill="#d2a8ff">println</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#a5d6ff">"See you soon"</tspan><tspan fill="#c9d1d9">);</tspan></text>
+  </g>
+  <rect x="824" y="75" width="8" height="14" fill="#f89820" opacity="0">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
