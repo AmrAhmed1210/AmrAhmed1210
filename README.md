@@ -1,16 +1,58 @@
-## Hi there 👋
+# Amr Ahmed
 
-<!--
-**AmrAhmed1210/AmrAhmed1210** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Software Developer | Backend Development
 
-Here are some ideas to get you started:
+Computer Science Graduate — Cairo University
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build backend applications and RESTful APIs, with a strong interest in software engineering, system design, and AI-powered solutions.
+
+### Tech Stack
+
+**Languages**
+- C#
+- Java
+- C++
+- SQL
+
+**Backend**
+- ASP.NET Core
+- Spring Boot
+- Entity Framework Core
+- REST APIs
+- JWT Authentication
+- SignalR
+
+**Databases**
+- SQL Server
+- PostgreSQL
+- H2
+
+**Tools**
+- Git & GitHub
+- Postman
+
+### Featured Projects
+
+**MedBook**
+AI-Powered Bilingual Medical Assistant Platform built with React Native, .NET, and AI technologies.
+
+**Library Management System**
+A Spring Boot application for managing books, members, borrowing, and returns.
+
+**LifeLink**
+A blood donation matching platform focused on connecting donors with urgent requests.
+
+### What I'm Working On
+
+- Backend Development
+- Software Architecture
+- Data Structures & Algorithms
+- Building practical software projects
+
+### Connect
+
+GitHub: [@AmrAhmed1210](https://github.com/AmrAhmed1210)
+
+---
+
+*Building, learning, and improving every day.*
