@@ -65,6 +65,14 @@ Led a 5-member team to ship an AI-powered medical platform as my graduation proj
 
 <br/>
 
+<h2 align="center">How MedBook Works</h2>
+
+<p align="center">
+  <a href="https://github.com/AmrAhmed1210/AI-Medical-Assistant"><img src="./medbook-architecture.svg" width="100%" alt="MedBook architecture: React Native app, ASP.NET Core API and FastAPI AI service on Railway, PostgreSQL on Neon, Gemini API" /></a>
+</p>
+
+<br/>
+
 <div align="center">
 <sub>B.Sc. Computer Science, Cairo University, 2022 – 2026 · BI Development training at ITI · Arabic (native), English (professional)</sub>
 </div>

@@ -1,0 +1,76 @@
+<svg width="1000" height="340" viewBox="0 0 1000 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MedBook architecture: mobile app, ASP.NET Core API and FastAPI AI service on Railway, PostgreSQL on Neon, and Gemini API">
+  <style>
+    .card { fill: #ffffff; stroke: #d0d7de; }
+    .title { fill: #1f2328; font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; }
+    .sub { fill: #57606a; font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; font-size: 12px; }
+    .label { fill: #57606a; font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; }
+    .zone { stroke: #8b949e; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #161b22; stroke: #30363d; }
+      .title { fill: #ffffff; }
+      .sub { fill: #8b949e; }
+      .label { fill: #8b949e; }
+    }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Railway zone -->
+  <rect class="zone" x="250" y="44" width="520" height="272" rx="16" stroke-width="1.2" stroke-dasharray="6 5" opacity="0.7"/>
+  <text class="label" x="270" y="66" letter-spacing="3">RAILWAY</text>
+  <text class="label" x="270" y="306">Two independently deployed services</text>
+
+  <!-- Mobile App -->
+  <rect class="card" x="30" y="76" width="180" height="92" rx="12"/>
+  <rect x="30" y="90" width="4" height="64" rx="2" fill="#0ea5e9"/>
+  <text class="title" x="54" y="110">Mobile App</text>
+  <text class="sub" x="54" y="134">React Native</text>
+  <text class="sub" x="54" y="152">Booking · Vitals · AI chat</text>
+
+  <!-- Users -->
+  <rect class="card" x="30" y="200" width="180" height="92" rx="12"/>
+  <rect x="30" y="214" width="4" height="64" rx="2" fill="#f89820"/>
+  <text class="title" x="54" y="234">Users</text>
+  <text class="sub" x="54" y="258">Patients &amp; Doctors</text>
+  <text class="sub" x="54" y="276">Arabic / English</text>
+
+  <!-- Core API -->
+  <rect class="card" x="275" y="76" width="240" height="92" rx="12"/>
+  <rect x="275" y="90" width="4" height="64" rx="2" fill="#8250df"/>
+  <text class="title" x="299" y="110">Core API</text>
+  <text class="sub" x="299" y="134">ASP.NET Core (.NET 8)</text>
+  <text class="sub" x="299" y="152">JWT · Roles · EF Core · Swagger</text>
+
+  <!-- AI Service -->
+  <rect class="card" x="275" y="200" width="240" height="92" rx="12"/>
+  <rect x="275" y="214" width="4" height="64" rx="2" fill="#14b8a6"/>
+  <text class="title" x="299" y="234">AI Service</text>
+  <text class="sub" x="299" y="258">FastAPI · RAG pipeline</text>
+  <text class="sub" x="299" y="276">sentence-transformers · ChromaDB</text>
+
+  <!-- PostgreSQL -->
+  <rect class="card" x="830" y="76" width="140" height="92" rx="12"/>
+  <rect x="830" y="90" width="4" height="64" rx="2" fill="#316192"/>
+  <text class="title" x="854" y="110">PostgreSQL</text>
+  <text class="sub" x="854" y="134">Neon</text>
+
+  <!-- Gemini -->
+  <rect class="card" x="830" y="200" width="140" height="92" rx="12"/>
+  <rect x="830" y="214" width="4" height="64" rx="2" fill="#8e75b2"/>
+  <text class="title" x="854" y="234">Gemini API</text>
+  <text class="sub" x="854" y="258">LLM responses</text>
+
+  <!-- Arrows -->
+  <path d="M120 200V170" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arr)"/>
+  <path d="M212 122H273" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text class="label" x="242" y="114" text-anchor="middle">REST</text>
+  <path d="M395 170V198" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text class="label" x="405" y="188">question</text>
+  <path d="M517 122H828" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text class="label" x="672" y="114" text-anchor="middle">EF Core</text>
+  <path d="M517 246H828" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text class="label" x="672" y="238" text-anchor="middle">top-3 answers + prompt</text>
+</svg>
