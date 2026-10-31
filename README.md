@@ -12,7 +12,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-AmrAhmed1210-30363d?style=for-the-badge&logo=github&logoColor=white&labelColor=f89820)](https://github.com/AmrAhmed1210?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-amrahmed757574@gmail.com-30363d?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:amrahmed757574@gmail.com)
 
-<sub>Computer Science graduate, Cairo University · Cairo, Egypt</sub>
+<sub><b>Computer Science graduate, Cairo University · Cairo, Egypt</b></sub>
 
 </div>
 
@@ -21,9 +21,9 @@
 <h2 align="center">About</h2>
 
 <p align="center">
-Java backend developer building REST APIs with Spring Boot and ASP.NET Core,<br/>
+<b>Backend developer</b> building REST APIs with <b>Spring Boot</b> and <b>ASP.NET Core</b>,<br/>
 from authentication and data access to deployment.<br/>
-Led a 5-member team to ship an AI-powered medical platform as my graduation project.
+Led a <b>5-member team</b> to ship an <b>AI-powered medical platform</b> as my graduation project.
 </p>
 
 <br/>
