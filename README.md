@@ -68,7 +68,7 @@ Led a <b>5-member team</b> to ship an <b>AI-powered medical platform</b> as my g
 <h2 align="center">How MedBook Works</h2>
 
 <p align="center">
-  <a href="https://github.com/AmrAhmed1210/AI-Medical-Assistant"><img src="./medbook-architecture.svg" width="100%" alt="MedBook architecture: React Native app, ASP.NET Core API and FastAPI AI service on Railway, PostgreSQL on Neon, Gemini API" /></a>
+  <a href="https://github.com/AmrAhmed1210/AI-Medical-Assistant"><img src="./medbook-architecture.svg" width="100%" alt="MedBook architecture: mobile app for patients, web dashboard for doctors and admins, ASP.NET Core API and FastAPI AI service on Railway, PostgreSQL on Neon, Gemini API" /></a>
 </p>
 
 <br/>
